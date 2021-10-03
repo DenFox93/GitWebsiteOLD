@@ -31,24 +31,27 @@ body {
 
 
 
-button {
+button:after {
     border: none;
-    background: #23252e;
+    /*background-color: transparent;*/
+    background-color: #d3d4d8 ;
+    background-repeat: no-repeat;
     margin: 0;
     font-size: 17px;
-    color: #a6a6a8;
+    
     font-weight: bold;
-    right: 0;
+    
     
 }
 
 
 
 button:hover {
-    
-    color: #d3d4d8;
+    /* background-color: transparent; */
+      
     cursor:pointer;
-    transform: scale(1.5);
+    /* transform: scale(1.5); */ 
+    /*background-color:   #d3d4d8;*/
     
 }
 
@@ -131,7 +134,10 @@ div.tree a, div.tree a:visited {
     color: #2677fe;
     text-decoration: none;
     line-height: 2;
+    text-align: left;
 }
+
+
 
 div.tree ul {
     padding-inline-start: 20px;
@@ -145,19 +151,24 @@ div.tree ul.outermost {
 
 div.tree li {
     padding-inline-start: 0;
+    
 }
+
 div.tree li.leaf {
     padding-inline-start: 0px;
     line-height: 2;
+    
 }
+
 .tree li a {
     width: 100%;
-    display: inline-block;
+    display: inline-block; 
     
     
 }
 
-.tree li a:hover {
+
+.tree li:hover {
     background: #000000;
     
 }
