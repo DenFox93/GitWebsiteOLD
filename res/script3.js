@@ -13,10 +13,10 @@ function toggleSubTree(element){
 	var nextSibling = element.parentElement.nextElementSibling;
 	if(nextSibling.tagName === 'UL'){
 		nextSibling.classList.toggle('hide');
-		if(element.textContent === '🞂'){
-			element.textContent = '🞃'
+		if(element.textContent === '>'){
+			element.textContent = '-'
 		}else{
-			element.textContent = '🞂'
+			element.textContent = '>'
 		}
 	}
 }
@@ -34,7 +34,7 @@ function expandAllSubtrees(element){
 	for(var i=0; i<subtrees.length; i++){
 		var subtree = subtrees[i];
 		subtree.classList.remove('hide');
-		subtree.previousElementSibling.firstChild.textContent = '🞂';
+		subtree.previousElementSibling.firstChild.textContent = '>';
 	}
 }
 
@@ -43,7 +43,7 @@ function collapseAllSubtrees(element){
 	for(var i=0; i<subtrees.length; i++){
 		var subtree = subtrees[i];
 		subtree.classList.add('hide');
-		subtree.previousElementSibling.firstChild.textContent = '🞂';
+		subtree.previousElementSibling.firstChild.textContent = '>';
 	}
 }
 
