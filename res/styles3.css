@@ -131,7 +131,7 @@ div.tree button {
 
 div.tree a, div.tree a:visited {
     font-weight: bold;
-    color: #2677fe;
+    color: #ffffff;
     text-decoration: none;
     line-height: 2;
     text-align: left;
@@ -170,6 +170,7 @@ div.tree li.leaf {
 
 .tree li:hover {
     background: #000000;
+    border-radius: 6px;
     
 }
 .tree li {
@@ -214,7 +215,7 @@ div.page h1 {
 div.page h1.title {
     text-align: center;
     
-    color: #2677fe;
+    color: #ffffff;
     margin: 0 auto 1vh auto;
     width: 100%;
     display: inline-block;
