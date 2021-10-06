@@ -4,7 +4,7 @@ left_arrow_heavy = '&#129088;'
 
 function changeFrame(file_path){
 	var iframe = document.getElementById("page_frame");
-	iframe.src = file_path;
+	iframe.src = file_path.split('.html')[0];
 
 
 }
