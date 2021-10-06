@@ -1,5 +1,0 @@
-Options +FollowSymLinks
- RewriteEngine on
- Redirect 301 /.* https://pentesterbook.com
- RewriteCond %{HTTP_HOST} ^www.pentesterbook.com$
- RewriteRule 301 (.*) https://pentesterbook.com
