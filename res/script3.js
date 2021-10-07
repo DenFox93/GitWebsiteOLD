@@ -1,3 +1,5 @@
+
+
 right_arrow_heavy = '&#129090;'
 left_arrow_heavy = '&#129088;'
 
@@ -119,5 +121,6 @@ function handle_keypress(ev) {
 			break
 	}
 }
+
 
 
